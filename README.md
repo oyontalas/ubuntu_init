@@ -16,6 +16,7 @@ Ubuntu amd64 桌面版
 6. `./sh/fishros_ros_docker.sh`：安装fishros的ROS1的docker容器（Ubuntu 20.04版本镜像）。选择容器的原因是ROS的安装和配置比较麻烦，并且ROS会跟Anaconda冲突，使用容器可以避免这些问题。
 7. `./sh/boot-repair.sh`：安装boot-repair（推荐）,这个软件对于双系统（windows+ubuntu）的用户来说非常有用，可以修复grub引导。使用方法自行百度。
 8. `./sh/tsinghua_source.sh`：更换清华源（不推荐），Ubuntu 20.04以上已经支持在“软件和更新”中更换源，不需要使用脚本。
+
 其他文件：其他文件为一些软件的安装脚本，可以根据需要选择是否运行。
 
 ## 运行
