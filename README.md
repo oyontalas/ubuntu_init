@@ -8,7 +8,7 @@ Ubuntu amd64 桌面版
 20.04 LTS，22.04 LTS
 
 ## 文件说明
-1. `./deb/`目录：通过软件包(.dab)安装的软件，将软件包添加到该目录下
+1. `./deb/`目录：通过软件包(.deb)安装的软件，将软件包添加到该目录下
 2. `./sh/install_apt.sh`：安装通过apt安装的软件
 3. `./sh/install_dab.sh`：安装在`./deb/`目录下的软件包
 4. `./sh/sogou.sh`：卸载ibus并安装搜狗输入法（推荐，需要在“语言支持”中设置键盘输入法系统为fcitx）
@@ -22,7 +22,7 @@ Ubuntu amd64 桌面版
 ## 运行
 
 ```shell
-. init.sh
+. ./init.sh
 ```
 
 ## deb建议安装的软件包

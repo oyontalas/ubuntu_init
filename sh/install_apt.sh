@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# 安装zotero s1
+wget -qO- https://raw.githubusercontent.com/retorquere/zotero-deb/master/install.sh | sudo bash
+
+# 更新apt
 sudo apt update
 
 #安装必要的基本库
@@ -29,4 +33,5 @@ sudo apt install speedtest-cli -f -y
 # 安装温度检测工具
 sudo apt install psensor -f -y
 
-
+# 安装zotero s2
+sudo apt install zotero -f -y
