@@ -18,7 +18,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 # 非root启动
 sudo groupadd docker
 sudo usermod -aG docker $USER
-# newgrp docker
+newgrp docker
 
 # 开机自启
 sudo systemctl enable docker.service
