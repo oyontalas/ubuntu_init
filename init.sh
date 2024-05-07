@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 使用阿里云源
-. sh/aliyun_source.sh
+bash sh/aliyun_source.sh
 
 # 使用清华源（不推荐，长期未使用，请自行检查代码）
 # . sh/tsinghua_source.sh
@@ -13,13 +13,13 @@
 # echo "Firefox已卸载."
 
 # 安装deb软件
-. sh/deb_install.sh
+bash sh/deb_install.sh
 
 # 安装apt软件
-. sh/apt_install.sh
+bash sh/apt_install.sh
 
 # 配置搜狗输入法
-. sh/sogou.sh
+bash sh/sogou.sh
 
 # 自动安装推荐的驱动
 sudo ubuntu-drivers devices
@@ -27,10 +27,10 @@ sudo ubuntu-drivers autoinstall
 
 
 # 安装boot-repair
-. sh/boot-repair.sh
+# bash sh/boot-repair.sh
 
 # 安装Docker
-. sh/docker.sh
+bash sh/docker.sh
 
 # 从fishros安装Docker
 # . sh/fish_docker.sh
